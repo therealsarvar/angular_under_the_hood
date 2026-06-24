@@ -1,0 +1,60 @@
+# ===== Node / npm =====
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# ===== Angular build / cache =====
+/dist/
+/tmp/
+/out-tsc/
+/bazel-out/
+.angular/
+.angular/cache/
+/connect.lock
+
+# ===== Test va coverage =====
+/coverage/
+/.nyc_output/
+/libpeerconnection.log
+testem.log
+/typings
+
+# ===== IDE / Editor =====
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/
+
+# ===== Environment / Secrets =====
+.env
+.env.*
+!.env.example
+
+# ===== macOS =====
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ===== Windows / Linux =====
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*~
+
+# ===== Claude Code =====
+.claude/
+
+# CLAUDE.md — lokal loyiha konfiguratsiyasi (commit qilinmaydi)
+CLAUDE.md
